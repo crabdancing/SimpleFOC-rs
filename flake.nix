@@ -36,8 +36,8 @@
             ];
           # I doubt this is actually needed, but keeping commented just in case
           # export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
-          shellHook = ''
-          '';
+          # shellHook = ''
+          # '';
         };
       }
     );
